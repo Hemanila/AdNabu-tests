@@ -1,0 +1,19 @@
+Opened URL
+Password submitted
+Homepage loaded
+Search performed
+Found 6 products
+Opened product 1
+Product not available, trying next...
+Opened product 2
+Product not available, trying next...
+Opened product 3
+Product not available, trying next...
+Opened product 4
+Product not available, trying next...
+Opened product 5
+Product not available, trying next...
+Opened product 6
+Product not available, trying next...
+No available product found - Test could not be completed due to all products being sold out
+Test Execution Completed
