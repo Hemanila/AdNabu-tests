@@ -1,0 +1,50 @@
+TC1: Verify product search with a valid keyword (Positive)
+Steps:
+Navigate to the homepage
+Enter a valid keyword (e.g., “Shoes”) in the search bar
+Click search
+Expected Result:
+Relevant products related to “Shoes” should be displayed
+
+TC2: Validate search with invalid keyword (Negative)
+Steps:
+Enter random keyword (e.g., “123abc”)
+Click search
+Expected Result:
+No products should be displayed
+An appropriate message, like “No results found” should appear
+
+TC3: Verify search with empty input (Edge Case)
+Steps:
+Leave the search field empty
+Click search
+Expected Result:
+The system should either: Show all products OR
+Display validation message (no crash should occur)
+Add to Cart
+
+TC4: Verify adding product to cart successfully (Positive)
+Steps:
+Search for a product
+Select a product
+Click “Add to Cart”
+Expected Result:
+The product should be added to the cart
+The cart count should increase
+
+TC5: Validate adding out-of-stock product to cart (Negative)
+Steps:
+Open a product marked as “Sold Out”
+Try to click “Add to Cart”
+Expected Result:
+Add to Cart button should be disabled OR
+The product should not be added to the cart
+
+TC6: Verify adding product without selecting required options (Edge Case)
+Steps:
+Open a product with variants (e.g., size)
+Do not select any option
+Click “Add to Cart”
+Expected Result:
+The system should prompt the user to select the required options
+The product should not be added to the cart
