@@ -23,3 +23,14 @@ Automate product search and add to cart functionality using Selenium.
 ## Notes
 - Explicit waits used (no sleep)
 - Handles dynamic UI and unavailable products
+
+## Known Limitation
+
+All products in the test store were found to be out of stock during execution.
+
+Due to this, the "Add to Cart" functionality could not be fully validated.
+
+The script is designed to:
+- Attempt multiple products
+- Handle out-of-stock scenarios gracefully
+- Log appropriate messages in the test report
